@@ -1,0 +1,51 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Mono|Roboto:400,900);
+
+*{
+	background-color: #ecf0f1;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	color: #222;
+}
+
+body{
+	max-width: 900px;
+	margin: auto;
+}
+
+p{
+	text-align: justify;
+	font-size: 1.2em;
+}
+
+img{
+    width: 100%;
+}
+textarea{
+	font-family: 'Roboto Mono', monospace;
+	font-size: 1.1em;
+	background-color: #fafafa;
+	text-align: left;
+	width: 100%;
+	resize: none;
+}
+
+input{
+	clear: both;
+	width: 100%;
+	background-color: #9b59b6;
+	transition: background-color .25s;
+	border: none;
+	padding: .5em;
+	font-size: 1.5em;
+	font-weight: 900;
+	color: #eee;
+}
+
+input:hover{
+	background-color: #8e44ad;
+	cursor: pointer;
+}
+
+footer{
+	padding: 2em 0;
+}
